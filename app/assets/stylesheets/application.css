@@ -25,7 +25,16 @@
     flex-direction: column;
     
   }
-  
+  .inputf{
+    width: fit-content;                
+    font-size: 15px;               
+    resize: none;                
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius:50px;
+    border:1px solid rgb(221, 221, 221);
+    outline: none;  
+  }
   .content-input {
     width: fit-content;                
     font-size: 15px;               
