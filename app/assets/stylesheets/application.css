@@ -13,3 +13,46 @@
  *= require_tree .
  *= require_self
  */
+.form{
+    padding:10px;
+    border-radius:5px;
+    border:1px solid gray;
+    
+}
+
+.tweet-form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .content-input {
+    width: fit-content;                
+    font-size: 15px;               
+    resize: none;                
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border:1px solid rgb(221, 221, 221);
+    outline: none;                 
+    /*box-sizing: border-box;*/
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;     /* ボタンを右端に寄せる */
+    border-top: 1px solid #eff3f4; /* ボタンの上にうっすら線を引く */
+    padding-top: 10px;
+  }
+  
+  .post-btn {
+    background-color: #1d9bf0;     /* Twitterっぽいブルー */
+    border-radius: 9999px;         /* 丸みのあるピル型にする */
+    padding: 8px 16px;
+    border:1px solid rgb(226, 226, 226);
+    color:white;
+    font-weight: bold;
+  }
+  
+  .post-btn:hover {
+    background-color: #1a8cd8;     /* ホバー時に少し暗く */
+  }
